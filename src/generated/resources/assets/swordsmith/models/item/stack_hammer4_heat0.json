@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "swordsmith:item/stack_hammer4",
+    "layer1": "swordsmith:item/heat0"
+  }
+}

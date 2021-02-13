@@ -1,0 +1,36 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "swordsmith:item/shingane_stack"
+  },
+  "overrides": [
+    {"predicate": {"swordsmith:hammer": 0}, "model": "swordsmith:item/shingane_stack"},
+    {"predicate": {"swordsmith:heat": 0, "swordsmith:stage": 0, "swordsmith:hammer": 1}, "model": "swordsmith:item/stack_hammer1_heat0"},
+    {"predicate": {"swordsmith:heat": 1, "swordsmith:stage": 0}, "model": "swordsmith:item/stack_hammer1_heat1"},
+    {"predicate": {"swordsmith:heat": 2, "swordsmith:stage": 0}, "model": "swordsmith:item/stack_hammer1_heat2"},
+    {"predicate": {"swordsmith:heat": 3, "swordsmith:stage": 0}, "model": "swordsmith:item/stack_hammer1_heat3"},
+    {"predicate": {"swordsmith:heat": 4, "swordsmith:stage": 0}, "model": "swordsmith:item/stack_hammer1_heat4"},
+    {"predicate": {"swordsmith:heat": 5, "swordsmith:stage": 0}, "model": "swordsmith:item/stack_hammer1_heat5"},
+
+    {"predicate": {"swordsmith:heat": 0, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat0"},
+    {"predicate": {"swordsmith:heat": 1, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat1"},
+    {"predicate": {"swordsmith:heat": 2, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat2"},
+    {"predicate": {"swordsmith:heat": 3, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat3"},
+    {"predicate": {"swordsmith:heat": 4, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat4"},
+    {"predicate": {"swordsmith:heat": 5, "swordsmith:stage": 1}, "model": "swordsmith:item/stack_hammer2_heat5"},
+
+    {"predicate": {"swordsmith:heat": 0, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat0"},
+    {"predicate": {"swordsmith:heat": 1, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat1"},
+    {"predicate": {"swordsmith:heat": 2, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat2"},
+    {"predicate": {"swordsmith:heat": 3, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat3"},
+    {"predicate": {"swordsmith:heat": 4, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat4"},
+    {"predicate": {"swordsmith:heat": 5, "swordsmith:stage": 2}, "model": "swordsmith:item/stack_hammer3_heat5"},
+
+    {"predicate": {"swordsmith:heat": 0, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat0"},
+    {"predicate": {"swordsmith:heat": 1, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat1"},
+    {"predicate": {"swordsmith:heat": 2, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat2"},
+    {"predicate": {"swordsmith:heat": 3, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat3"},
+    {"predicate": {"swordsmith:heat": 4, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat4"},
+    {"predicate": {"swordsmith:heat": 5, "swordsmith:stage": 3}, "model": "swordsmith:item/stack_hammer4_heat5"}
+  ]
+}

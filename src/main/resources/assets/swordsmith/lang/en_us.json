@@ -1,0 +1,21 @@
+{
+  "item.swordsmith.tamahagane": "Tamahagane",
+  "item.swordsmith.shingane": "Shingane",
+  "item.swordsmith.kawagane": "Kawagane",
+  "item.swordsmith.hammer": "Hammer",
+  "item.swordsmith.ash": "Ash",
+  "item.swordsmith.kawagane_stack": "Stack of Kawagane",
+  "item.swordsmith.shingane_stack": "Stack of Shingane",
+
+  "tooltip.special_item.hold_shift": "§7Hold §eLShift§7 for more information",
+  "tooltip.special_item.hold_ctrl": "§7Hold §bLCtrl§7 for stats",
+
+  "tooltip.default.info": "No Special Tool Tip Found",
+  "tooltip.hammer.info": "§7Hammer in main-hand, target in off-hand. Shift Right click on anvil to hammer",
+  "tooltip.tamahagane.info": "§7Right click on heat source to heat up",
+  "tooltip.new_blade.info": "New blade",
+
+  "itemGroup.swordsmith": "Sword Smith",
+
+  "block.swordsmith.tamahagane_block": "Tamahagane Cluster"
+}

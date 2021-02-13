@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "swordsmith:shingane"
+    }
+  },
+  "result": {
+    "item": "swordsmith:shingane_stack",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "swordsmith:item/tamahagane"
+  },
+  "overrides": [
+    {"predicate": {"swordsmith:heat": 0.05}, "model": "swordsmith:item/tamahagane_heat1"},
+    {"predicate": {"swordsmith:heat": 0.07}, "model": "swordsmith:item/tamahagane_heat2"},
+    {"predicate": {"swordsmith:heat": 0.09}, "model": "swordsmith:item/tamahagane_heat3"},
+    {"predicate": {"swordsmith:heat": 0.11}, "model": "swordsmith:item/tamahagane_heat4"},
+    {"predicate": {"swordsmith:heat": 0.13}, "model": "swordsmith:item/tamahagane_heat5"}
+  ]
+}
