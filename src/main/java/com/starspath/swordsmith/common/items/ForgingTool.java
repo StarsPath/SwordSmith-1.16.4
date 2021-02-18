@@ -70,14 +70,15 @@ public class ForgingTool extends Item{
                     world.playSound(playerEntity, blockPos, SoundEvents.BLOCK_ANVIL_PLACE, SoundCategory.BLOCKS, 0.5f, 1f);
 
                     CompoundNBT nbt = offhandItemStack.getOrCreateTag();
-                    if(nbt.getInt("Heat") < 200){
-                        offhandItemStack.shrink(1);
-                        if(offhandItemStack.getItem() == ItemInit.TAMAHAGANE.get())
+                    if(nbt.getInt("Heat") < 400){
+                        if(offhandItemStack.getItem() == ItemInit.TAMAHAGANE.get()){
                             dropItem(playerEntity, (int)((1.0 - ((float)nbt.getInt("Impurity")/100)) * 7) + 1);
+                        }
+                        offhandItemStack.shrink(1);
                     }
                     else {
                         //nbt.putInt("Heat", nbt.getInt("Heat") - HeatControl.heatLossPerHammer);
-                        nbt.putInt("Heat", nbt.getInt("Heat") - (int)(0.08 * nbt.getInt("Heat")));
+                        nbt.putInt("Heat", nbt.getInt("Heat") - (int)(0.1 * nbt.getInt("Heat")));
                         nbt.putInt("HeatStage", nbt.getInt("Heat")/250);
                         nbt.putInt("Hammer", nbt.getInt("Hammer") + 1);
                         if(nbt.contains("Impurity"))
